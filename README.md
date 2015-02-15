@@ -1,6 +1,6 @@
 # remote_syslog2
 
-A Docker [remote_syslog2][remote_syslog2] image. Built from [progrium/busybox][progrium_busybox] so that it is very small.
+A Docker [remote_syslog2][remote_syslog2] image. Built from [gliderlabs/alpine][alpine] so that it is very small.
 
 ## Usage
 
@@ -11,4 +11,4 @@ docker run -d -v $PWD/logs:/mnt andyshinn/remote_syslog2 -d logs.papertrailapp.c
 ```
 
 [remote_syslog2]: https://github.com/papertrail/remote_syslog2
-[progrium_busybox]: https://github.com/progrium/busybox
+[alpine]: https://github.com/gliderlabs/docker-alpine
